@@ -1,3 +1,4 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,6 @@
 <body>
     <header>
         <h1>Welcome to Mahak's Coffee Store</h1>
-        <p>Premium handcrafted coffee made with love.</p>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,30 +18,171 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <a href="menu.html" class="cta-button">Explore Menu</a>
     </header>
-    
-    <section class="menu-preview">
+    <section class="hero">
+        <h2>Premium Handcrafted Coffee Made with Love</h2>
+        <a href="menu.html" class="btn">Explore Menu</a>
+    </section>
+    <section class="specials">
         <h2>Our Signature Coffees</h2>
         <div class="coffee-item">
-            <img src="images/espresso.jpg" alt="Espresso">
-            <h3>Espresso - $3</h3>
-            <p>Strong & bold shot of caffeine</p>
+            <img src="espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Strong & bold shot of caffeine - $3</p>
         </div>
         <div class="coffee-item">
-            <img src="images/latte.jpg" alt="Latte">
-            <h3>Latte - $4</h3>
-            <p>Silky smooth with creamy froth</p>
+            <img src="latte.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <p>Silky smooth with creamy froth - $4</p>
         </div>
         <div class="coffee-item">
-            <img src="images/cappuccino.jpg" alt="Cappuccino">
-            <h3>Cappuccino - $4.50</h3>
-            <p>Perfect balance of coffee & milk</p>
+            <img src="cappuccino.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Perfect balance of coffee & milk - $4.50</p>
         </div>
     </section>
-
     <footer>
-        <p>&copy; 2025 Mahak's Coffee Store | Crafted with love</p>
+        <p>&copy; 2025 Mahak's Coffee Store. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Mahak's Coffee Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>About Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about">
+        <p>At Mahak's Coffee Store, we craft the finest coffee with premium beans, sourced ethically to provide an unforgettable experience.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mahak's Coffee Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Mahak's Coffee Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="menu">
+        <h2>Signature Coffees</h2>
+        <ul>
+            <li>Espresso - $3</li>
+            <li>Latte - $4</li>
+            <li>Cappuccino - $4.50</li>
+            <li>Mocha - $5</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mahak's Coffee Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Mahak's Coffee Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contact">
+        <p>Email: support@mahakcoffee.com</p>
+        <p>Phone: +971 123 456 789</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Mahak's Coffee Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- style.css -->
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    padding: 50px;
+    background-color: #654321;
+    color: white;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
